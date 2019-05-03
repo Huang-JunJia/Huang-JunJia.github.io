@@ -78,7 +78,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "你所你孤独，像是很久以前长星照耀的十三个州府。"
+sidebar-about-description: "你说你孤独，像是很久以前长星照耀的十三个州府。"
 sidebar-avatar: /img/head_picture.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
