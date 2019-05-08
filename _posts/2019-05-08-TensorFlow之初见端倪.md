@@ -2,7 +2,7 @@
 layout:     post
 title:      "TensorFlow之初见端倪"
 subtitle:   "TensorFlow是由Google开发的一个用作深度学习的计算框架，这个开源的计算框架可以很好地实现各种深度学习算法。"
-date:       2019-04-21
+date:       2019-05-08
 author:     "木夏"
 header-img: "img/post-bg-digital-native.jpg"
 catalog: true
@@ -58,12 +58,7 @@ with tf.Session(graph= g2) as sess:
 ### 2.2张量(tensor)
 在TensorFlow中，所有的数据都用张量（tensor）表示。张量可以表示0阶~N阶的数组（列表），其中的`阶`即为张量的维度。
 #### 2.2.1张量维度介绍
-| 维度        | 阶   |  名字  |列子|
-| --------   | -----:  | :----:  | :----:  |
-| 0维     | 0 |   标量(scalar)     |v = 100, v=abc
-| 1维   |   1   |   向量(vector)   |v=[1,2,3],一维数组
-| 2维       |    2   |  矩阵(matrix) |v=[[1,2,3], [4,5,6],[7,8,9]]
-| N维   |   N  |  张量(tensor)  |v=[[[[[....(N个[ 方括号，即N维)
+![此处输入图片的描述][2]
 #### 2.2.2张量属性
 一个张量主要保存三个属性：`名字（name）`、`维度(shape）`、`类型(type)`
 ```
@@ -145,4 +140,8 @@ with tf.Session() as sess:#建立会话
 
 
 
+
+
   [1]: https://s2.ax1x.com/2019/05/07/EyYtwn.png
+  [2]: https://s2.ax1x.com/2019/05/08/E6LuoF.png
+
