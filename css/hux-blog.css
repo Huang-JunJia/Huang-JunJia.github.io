@@ -1647,11 +1647,6 @@ img::-moz-selection {
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
 }
-.MathJax_SVG_Display {
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
 
 /* back-top */
 #back-top {
@@ -1688,3 +1683,9 @@ img::-moz-selection {
 .fa-chevron-up:before {
     color: rgba(252,252,252,0.81);
 }
+
+.MathJax_SVG_Display {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
